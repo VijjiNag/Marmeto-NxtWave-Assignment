@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="products-bg-container">
+        <h1 class="products-main-head">SELECT YOUR CHOICE</h1>
+        <div class="tabs-container">
+            <button class="tablinks" id="defaultOpen" onclick="openProduct(event, 'Men')">Men</button>
+            <button class="tablinks" onclick="openProduct(event, 'Women')">Women</button>
+            <button class="tablinks" onclick="openProduct(event, 'Kids')">Kids</button>
+        </div>
+        <div id="Men" class="tabcontent">
+            <div id="menImage" class="tabitem-content"></div>
+            <div id="menTitle" class="title-container"></div>
+            <div id="menBadgeContainer" class="badge-container"></div>
+            <div class="price-container-el">
+                <div id="menPrice" class="price-container"></div>
+            </div>
+            <div class="men-add-to-cart-container">
+                <button class="btn"> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
+            </div>
+        </div>
+        <div id="Women" class="tabcontent">
+            <div id="womenImage" class="tabitem-content"></div>
+            <div id="womenTitle" class="title-container"></div>
+            <div id="womenBadgeContainer" class="title-container"></div>
+            <div class="price-container-el">
+                <div id="womenPrice" class="price-container"></div>
+            </div>
+            <div class="men-add-to-cart-container">
+                <button class="btn"> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
+            </div>
+        </div>
+        <div id="Kids" class="tabcontent">
+            <div id="kidsImage" class="tabitem-content"></div>
+            <div id="kidsTitle" class="title-container"></div>
+            <div id="kidsBadgeContainer" class="title-container"></div>
+            <div class="price-container-el">
+                <div id="kidsPrice" class="price-container"></div>
+            </div>
+            <div class="men-add-to-cart-container">
+                <button class="btn"> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
+                <button class="btn"> Add to Cart</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
